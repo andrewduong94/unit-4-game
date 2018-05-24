@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+</head>
+<body>
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+        <h1>Crystal Collector Game</h1>
+        </div>
+    </div>
+	<div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+		    <h2>Wins:
+			    <span id= "TotalWins"></span>
+             </h2>
+        </div>
+        <div class="col-md-3">
+			<h2>Losses: 
+                <span id= "TotalLosses"></span>
+            </h2>
+		</div>
+	</div>
+	<div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+		    <img src="assets/images/bluejewel.png" class=Image id="count1" alt="BlueJewel">
+		    <img src="assets/images/greenjewel.png" class=Image id="count2" alt="GreenJewel">
+		    <img src="assets/images/redjewel.png" class=Image id= "count3" alt="RedJewel">
+            <img src="assets/images/yellowjewel.png" class=Image id= "count4" alt="YellowJewel">
+        </div>
+	</div>
+	<div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+		    <h2>Total Score Is:
+			    <span id="FTotal"></span>
+            </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4"></div>
+            <div class="col-md-4">
+            <h2>Number To Get:
+                <span id= "randomNumber"></span>
+            </h2>
+        </div>
+    </div>
+</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
